@@ -1,5 +1,5 @@
 server:
-  port: 8764      # 端口
+  port: 8768      # 端口
 eureka:
   client:
     service-url:
