@@ -1,7 +1,8 @@
 server:
-  port: 8768      # 端口
-# eureka:
-#   client:
-#     service-url:
-#       defaultZone: http://localhost:8700/eureka/      # eureka server url
-# hello: 雷猴啊
+  port: 8710      # 端口
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
